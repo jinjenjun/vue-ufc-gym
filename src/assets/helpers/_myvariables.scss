@@ -1,0 +1,1352 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+
+
+
+
+* {
+  font-weight: bold;
+}
+
+html, body{
+  position: relative;
+}
+
+p,li,a{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Navbar樣式 */
+
+/* 更改背景顏色和全部字體租細 */
+nav.navbar{ 
+  background: #000000;
+  font-weight: bold; 
+} 
+
+/* 更改品牌字體顏色 */
+.navbar a.navbar-brand{ 
+  color: #ffffff; 
+} 
+
+/* 更改品牌字體hover效果 */
+.navbar a.navbar-brand:hover{ 
+  color: #31d2f2;
+  transition: 0.5s;
+} 
+
+/* 更改選項字體顏色 */
+.navbar ul.navbar-nav li.nav-item a.nav-link{ 
+  color: #ffffff; 
+  font-size: 16px;
+} 
+
+/* 更改選項字體hover顏色 */
+.navbar ul.navbar-nav li.nav-item a.nav-link:hover{ 
+  color: #31d2f2;
+  transition: 0.5s;
+} 
+
+/* 更改dropdown顏色和效果 */
+.dropdown-menu{
+  background-color: #ffffff; 
+}
+
+.dropdown-item{
+  text-align: center;
+  font-weight: bold;
+}
+
+.dropdown-item:active {
+  background-color: #0b5ed7 !important;
+  transition: 0.5s;
+}
+
+.dropdownText{
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+
+}
+
+/* 更改漢堡選單顏色和效果 */
+.navbar-toggler-icon{
+  border: 2px solid #686868;
+  border-radius: 5px;
+}
+
+.navbar-toggler-icon:hover{
+  border: 2px solid #31d2f2;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+/* hover彈跳與變色效果 */
+.innerBar{
+  background-color: #0098b6;
+  width: 0%;
+  height: 3px;
+  transition: 0.1s;
+  margin-bottom: 3px;
+}
+
+.backgroundBar{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #686868;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  z-index: -1;
+  opacity: 0%;
+}
+
+.nav-item{
+  position: relative;
+}
+
+.nav-link{
+  z-index: 1;
+}
+
+/* jumbotron樣式 */
+
+.jumbotronAllOutside{
+  position: relative;
+}
+
+.jumbotronCover{
+  height: 390px;
+  position: relative;
+}
+
+.jumbotronSubtitle{
+  color: #ffffff;
+  font-weight: bold;
+  font-style: italic;
+  width: 100%;
+  text-align: center;
+
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%,0%);
+}
+
+.jumbotronPower{
+ font-size: 25px;
+ font-style: italic;
+ font-weight: bold;
+}
+
+.jbImgBoxer{
+  position: absolute;
+  max-width:70%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  animation-name: shake;    /*動畫名稱，需與 keyframe 名稱對應*/
+  animation-duration: 3.8s;    /*動畫持續時間，單位為秒*/
+  animation-delay: 0s;    /*動畫延遲開始時間*/
+  /* animation-iteration-count: infinite;    動畫次數，infinite 為無限次  */
+}
+
+@keyframes shake {
+
+  0% {
+    transform: translate(-50%,-50%) translate(0px, 0px) scale(0) ;
+    opacity: 1;
+  }
+  11% {
+    transform:  translate(-50%,-50%) translate(-1px, -2px) scale(1) rotate(360deg) ;
+    opacity: 0;
+  }
+  12% {
+    transform: translate(-50%,-50%) translate(-3px, 0px) ;
+    opacity: 1;
+  }
+  13% {
+    transform: translate(-50%,-50%) translate(3px, 2px) ;
+    opacity: 0;
+  }
+  14% {
+    transform: translate(-50%,-50%) translate(1px, -1px) ;
+    opacity: 1;
+  }
+  15% {
+    transform: translate(-50%,-50%) translate(-1px, 2px);
+    opacity: 0;
+  }
+  16% {
+    transform: translate(-50%,-50%) translate(-3px, 1px) ;
+    opacity: 1;
+  }
+  17% {
+    transform: translate(-50%,-50%) translate(3px, 1px) ;
+    opacity: 0;
+  }
+  18% {
+    transform: translate(-50%,-50%) translate(-1px, -1px) ;
+    opacity: 1;
+  }
+  19% {
+    transform: translate(-50%,-50%) translate(1px, 1px);
+    opacity: 0;
+  }
+  20% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  21% {
+    transform: translate(-50%,-50%) translate(-1px, -2px) ;
+    opacity: 1;
+  }
+  22% {
+    transform: translate(-50%,-50%) translate(-3px, 0px) ;
+    opacity: 1;
+  }
+  23% {
+    transform: translate(-50%,-50%) translate(3px, 2px) ;
+    opacity: 1;
+  }
+  24% {
+    transform: translate(-50%,-50%) translate(1px, -1px) ;
+    opacity: 1;
+  }
+  25% {
+    transform: translate(-50%,-50%) translate(-1px, 2px);
+    opacity: 1;
+  }
+  26% {
+    transform: translate(-50%,-50%) translate(-3px, 1px) ;
+    opacity: 1;
+  }
+  27% {
+    transform: translate(-50%,-50%) translate(3px, 1px) ;
+    opacity: 1;
+  }
+  28% {
+    transform: translate(-50%,-50%) translate(-1px, -1px) ;
+    opacity: 1;
+  }
+  29% {
+    transform: translate(-50%,-50%) translate(1px, 1px);
+    opacity: 1;
+  }
+  30% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+}
+
+.jbImgBoxer2{
+  position: absolute;
+  max-width:72%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  animation-name: dissolve;    /*動畫名稱，需與 keyframe 名稱對應*/
+  animation-duration: 10s;    /*動畫持續時間，單位為秒*/
+  animation-delay: 0s;    /*動畫延遲開始時間*/
+  /* animation-iteration-count: infinite;    動畫次數，infinite 為無限次  */
+}
+
+@keyframes dissolve {
+
+  0% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 0;
+  }
+  11% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  12% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  13% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  14% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  15% {
+    transform: translate(-50%,-50%) translate(0px, 0px);
+    opacity: 1;
+  }
+  16% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  17% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  18% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  19% {
+    transform: translate(-50%,-50%) translate(0px, 0px);
+    opacity: 1;
+  }
+  20% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  21% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  22% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  23% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  24% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  25% {
+    transform: translate(-50%,-50%) translate(0px, 0px);
+    opacity: 1;
+  }
+  26% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  27% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  28% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  29% {
+    transform: translate(-50%,-50%) translate(0px, 0px);
+    opacity: 1;
+  }
+  30% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%,-50%) translate(0px, 0px) ;
+    opacity: 1;
+  }
+}
+
+/* 關於我們樣式 */
+
+.brandAllOutside{
+  background-color: #ffd000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.brandTitleOutside{
+  color: #000000;
+}
+
+.brandTitleInside{
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color:#39505e; 
+  border-radius: 5px 5px 0px 0px; 
+}
+
+.brandTitle{
+  font-weight: bold;
+  margin: 0px;
+  padding: 5px;
+  background-color:#39505e;
+  color: #ffffff;
+  opacity: 100%;
+}
+
+.brandOutside{
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 20px;
+  position: relative;
+  color: #ffffff;
+  transform-style:preserve-3d;
+  transition:0.5s all ease;
+  cursor: pointer;
+}
+
+.brandOutside:hover{
+  transform:rotateY(180deg);
+  position: relative;
+}
+
+.brandImgOutside{
+  width: 100%;  
+  border-radius: 50%;
+  backface-visibility:hidden;
+  position: relative;
+}
+  
+.brandImgInside{ 
+  color: #ffffff;
+  background-color: #012b7f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  backface-visibility:hidden;
+  transform:rotateY(180deg);
+
+  width: 100%;
+  height: 100%;
+}
+
+.brandInsideTitle{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.brandInsideContent{
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+.brandImg{
+  width: 90%;
+
+}
+
+.ufcAllOutside{
+  position: relative; 
+  background-color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.jbimg__boxer{
+  position: absolute;
+  max-width:72%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.ufcContent{
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+.storeAllOutside{
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: #ffd000;
+}
+
+.storeTitleOutside{
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color:#39505e; 
+  border-radius: 5px 5px 0px 0px; 
+}
+
+.storeTitle{
+  font-weight: bold;
+  margin: 0px;
+  padding: 5px;
+  background-color:#39505e;
+  color: #ffffff;
+}
+
+.storeAddressOutside{
+  background-color: #ffd000;
+  margin-bottom: 4px;
+}
+
+.storeAddressInside{
+  background-color: #ffd000;
+  text-align: center;
+  border: 0px;
+}
+
+.storeSpotOutside{
+  background-color: #ffd000;
+}
+
+.storeSpot{
+  border-top: 0px;
+  display: flex;
+  padding: 0px;
+  background-color: #ffd000;
+  border-radius: 0px;
+}
+
+.brandBar{
+  background-color: #0098b6;
+  width: 100%;
+  height: 10px;
+}
+
+/* 最新資訊樣式 */
+
+.newsAllOutside{
+  background-color: #ffd000
+}
+
+.newsContent{
+  // 不能與ellipsis共用
+  // text-align: justify;
+  // text-justify: inter-ideograph;
+}
+
+/* 輪播樣式 */
+.btn {
+  border-width: 2px
+}
+
+.form-control {
+border-width: 2px
+}
+
+.header-carousel-item {
+  height: 450px;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,0.6);
+}
+
+@media (min-width: 768px) {
+  .text-md-dark {
+    color: #333;
+  }
+}
+
+.carousel-control-prev,.carousel-control-prev-icon,.sr-only{
+  background-color: transparent;
+  color: transparent;
+  border: 0px;
+}
+
+.carousel-control-next,.carousel-control-next-icon,.sr-only{
+  background-color: transparent;
+  color: transparent;
+  border: 0px;
+}
+
+/* 頁籤樣式 */
+.menuBoard{
+  max-width:100%;
+  margin:0 auto;
+  display:block;
+}
+
+.tagMenu ul li{
+  max-width:100%;
+  margin:10px;
+  list-style-type:none;
+}
+
+.tagMenuli3{
+  margin:0px 0px 40px 0px;
+}
+
+.tagMenu ul li a{
+  text-align: center;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight:bold;
+  color:#ffffff;
+  text-decoration:none;
+  display:block;
+  padding: 10px 10px;
+  background:#0b5ed7;
+  transform: translate(-7%, 0)
+}
+
+.tagMenu ul li a:hover{
+  background:#0098b6; 
+  color:#ffffff;
+}
+
+.tagMenu ul li a.current{
+  background:#ffffff;
+  border: 2px solid #0b5ed7;
+  color:#0b5ed7;
+}
+
+#contents{
+  clear:both;
+  margin-bottom:6%;
+}
+
+#contents div{
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  background:#ffffff;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+#contents strong{
+  font-size:4em;
+  font-weight:bold;
+}
+
+.pics__outlook{
+  max-width: 100%;
+}
+  
+.ellipsis1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ellipsis2 {
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2; /*行數*/
+  -webkit-box-orient: vertical;
+  -webkit-box-align: end;
+  white-space: normal;
+}
+
+
+.js__btn__menuAdjust {
+  display: block;
+  max-width: 35%;
+  text-align: center;
+  transform: translate(180%, 0);
+}
+
+.news001 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+/* 各式商品樣式 */
+
+.productAllOutside{
+  background-color: #ffd000;
+}
+
+.productTitleOutside{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color:#39505e; 
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 0px;
+}
+
+.productTitle{
+  font-weight: bold;
+  margin: 0px;
+  padding: 5px; 
+  background-color:#39505e; 
+  color: #ffffff;
+}
+
+.productCardImg{
+  transform: translate(0px,0px);
+}
+
+.productCardImg:hover{
+  transform: translate(-2px,-2px);
+}
+
+.productCardContent{
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+.toolBarStyle{
+  margin: 10px 0px 0px 0px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.shoppingCartStyle{
+   margin: 0pc 10px 0px 0px;
+   background-color: #39505e; 
+   padding: 8px 0px 0px 10px; 
+   border-radius: 5px 5px 0px 0px
+}
+
+.dropDownStyle{
+  width: 260px; 
+  height: 220px; 
+  overflow: auto; 
+  border-radius: 0px !important;
+}
+
+/* 客服信箱樣式 */
+.emailAllOutside{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color:#39505e; 
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 27px;
+}
+
+.emailTitle{
+  font-weight: bold;
+  margin: 0px;
+  padding: 5px; 
+  background-color:#39505e; 
+  color: #ffffff;
+}
+
+/* swiper樣式 */
+.swiper-container {
+  width: 100%;
+  }
+
+.swiper-scrollbar {
+  display: none;
+}
+
+/* 常用元件樣式 */
+
+.js__btn{
+  border: 2px solid #0b5ed7;
+  background-color: #0b5ed7;
+  color: #ffffff;
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.js__btn:hover{
+  border: 2px solid #0098b6;
+  background-color: #0098b6;
+  transition: 0.5s;
+  color: #ffffff;
+  text-decoration:none;
+}
+
+.js__input{
+  border: 2px solid #5c636a;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.js__input:hover{
+  border: 2px solid #31d2f2;
+  transition: 0.5s;
+  }
+
+.fontstyle__lg{
+  font-weight: bold;
+}
+
+.hrStyle{
+  border: 5px solid #012b7f;
+  padding: 0px;
+  background-color: #012b7f;
+}
+
+.hrStyle2{
+  border: 5px solid #0098b6;
+  padding: 0px;
+  background-color: #0098b6;
+}
+
+.hrStyle__sm{
+  border: 3px solid #012b7f;
+  padding: 0px;
+  background-color: #012b7f;
+}
+
+/* 其他樣式 */
+
+.btn-cart{
+  position: relative;
+}
+
+.btn-cart .badge{
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-60%, -80%);
+}
+
+.dropdown-menu-right{
+  right: 0;
+  left: auto;
+}
+
+.bg-lighter{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box-shadow{
+  box-shadow: 0 3px 10px rgba(11, 94, 215, 0.6);
+  transition: 0.5s;
+}
+
+.box-shadow:hover{
+  box-shadow: 0 7px 15px rgba(11, 94, 215, 0.8);
+}
+
+.btn.disabled{
+  pointer-events: none;
+}
+
+.alert-rounded{
+  border-radius: 50px
+}
+
+.outline{
+  border: 1px solid #ffffff
+}
+
+.footerbg{
+  background-color: #686868;
+  color: #eeeeee;
+  font-weight: bold;
+}
+
+//取消button focus外框
+.btn:focus, .btn:active:focus {
+  outline: none !important;
+  box-shadow:none !important;
+}
+
+input:focus, input:active:focus, textarea:focus, textarea:active:focus {
+  outline: none !important;
+  box-shadow:none !important;
+}
+
+input:focus, input:active:focus, textarea:focus, textarea:active:focus {
+  outline: none !important;
+  box-shadow:none !important;
+}
+
+.peginationStyle {
+  justify-content: center;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  background-color: #ffd000;
+
+}
+
+//取消pagination外框
+.page-link, .page-link:focus, .page-link:active {
+  outline: none !important;
+  box-shadow:none !important;
+} 
+
+//關鍵字搜尋樣式
+.productSearchLabel {
+  font-size: 16px; 
+  margin-top: 10px;
+  padding: 5px 0px 5px 0px;
+}
+
+.productSearchInput {
+  width: 25%; 
+  padding: 3px; 
+  font-size: 16px; 
+  margin-left: 20px;
+}
+
+.inverse {
+  transform: rotate(180deg);
+}
+
+// 底部回頂標籤
+.backToTop {
+  background-color: #ff7700;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  z-index: 3;
+  position: fixed;
+  right: 20px;
+  bottom: -200px;
+  transition: 0.3s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.showToTopTag {
+  bottom: 20px;
+}
+
+.arrowUp {
+  z-index: 4;
+  width: 50%;
+  
+}
+
+// RWD
+
+@media (max-width: 767px) {
+
+  /* jumbotron樣式 */
+
+  .jumbotronCover{
+    height: 270px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .jbImgBoxer{
+    max-width:85%;
+    animation-name: dissolve;    /*動畫名稱，需與 keyframe 名稱對應*/
+    animation-duration: 10s;    /*動畫持續時間，單位為秒*/
+    animation-delay: 0s;    /*動畫延遲開始時間*/
+    /* animation-iteration-count: infinite;    動畫次數，infinite 為無限次  */
+  }
+
+  .jbImgBoxer2{
+    max-width:85%;
+  }
+
+  .jumbotronBgAbout{
+    background-attachment: scroll;
+
+  }
+  
+  /* 關於我們樣式 */
+
+  .ufcBackground{
+    background-color: #000000;
+  }
+
+  .brandOutside:hover{
+    transform:rotateY(0deg);
+    position: relative;
+  }
+
+  .brandOutside{
+    cursor: default;
+  }
+  
+
+  /* 頁籤樣式 */
+
+  .tagMenu ul {
+    margin:0px;
+    padding: 0px;
+  }
+
+  .tagMenu ul li{
+    max-width:25%;
+    display: inline-block;
+    margin:2px;
+  }
+
+  .tagMenu ul li a{
+    transform: translate(0%, 0%);
+    font-size: 15px;
+  }
+
+  .tagMenuli3{
+    margin:0px 0px 0px 0px;
+  }
+  
+  .carouselShow{
+    display: none;
+  }
+
+}
+
+
